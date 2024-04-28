@@ -12,7 +12,7 @@
     {
       "resources":[
         "entrystory/entrystory.js",
-        "entrystory/entrystory.css",
+        "entrystory/entrystory.css"
       ],
       "matches":["*://playentry.org/*"]
     }
