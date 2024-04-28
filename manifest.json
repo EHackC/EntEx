@@ -11,8 +11,9 @@
   "web_accessible_resources":[
     {
       "resources":[
+        "fetch.js",
         "entrystory/entrystory.js",
-        "entrystory/entrystory.css"
+        "entrystory/entrystory.css",
       ],
       "matches":["*://playentry.org/*"]
     }
