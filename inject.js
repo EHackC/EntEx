@@ -13,6 +13,7 @@ function injectCSS(path) {
 }
 
 if (window.location.pathname == "/community/entrystory/list") {
+    injectScript("fetch.js");
     injectScript(chrome.runtime.getURL("entrystory/entrystory.js"));
     injectCSS(chrome.runtime.getURL("entrystory/entrystory.css"));
 }
