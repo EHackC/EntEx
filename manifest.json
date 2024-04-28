@@ -1,0 +1,20 @@
+{
+  "manifest_version":3,
+  "name":"EntEx",
+  "version":"1.0.0",
+  "content_scripts":[
+    {
+      "matches":["*://playentry.org/*"],
+      "js":["inject.js"]
+    }
+  ],
+  "web_accessible_resources":[
+    {
+      "resources":[
+        "entrystory/entrystory.js",
+        "entrystory/entrystory.css",
+      ],
+      "matches":["*://playentry.org/*"]
+    }
+  ]
+}
